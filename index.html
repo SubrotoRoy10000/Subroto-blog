@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description"content="Subroto Roy's personal portfolio website. A modern, responsive web designer and developer profile." />
+  <meta name="description"
+    content="Subroto Roy's personal portfolio website. A modern, responsive web designer and developer profile." />
   <title>Subroto Roy | Personal Portfolio</title>
   <link rel="stylesheet" href="style.css">
 
@@ -27,23 +28,17 @@
         Delete all the pictures that are not needed for this project."<i class="fa-solid fa-bars"></i>
       </label>
       <ul class="nav-links" id="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">My Work</a></li>
+
       </ul>
     </nav>
   </header>
   <!-- Header End -->
-
   <!-- Hero Section Start -->
   <section class="hero">
     <div class="text">
-      <h3>This is me..</h3>
+      <h3>Hello, I'm</h3>
       <h1>Subroto Roy</h1>
-      <p>This is my first website. I am a web designer. Are you hearing me?</p>
+      <p>I am a web developer creating modern and responsive websites. Welcome to my portfolio!</p>
       <input type="button" value="DISCOVER NOW" />
     </div>
     <div class="image">
@@ -52,8 +47,9 @@
   </section>
   <!-- Hero Section End -->
 
+
   <!-- About Section Start -->
-  <section  class="sec1">
+  <section class="sec1">
     <div class="image">
       <img src="image_copy-removebg-preview.png" alt="About Me" />
     </div>
@@ -98,71 +94,8 @@
   </section>
   <!-- Services Section End -->
 
-  <!-- Stats Section Start -->
-  <section class="Section4">
-    <div>
-      <h1>23423</h1>
-      <p>Project Completed</p>
-    </div>
-    <div>
-      <h1>23423</h1>
-      <p>Happy Clients</p>
-    </div>
-    <div>
-      <h1>23423</h1>
-      <p>Website Projects</p>
-    </div>
-    <div>
-      <h1>23423</h1>
-      <p>Design Projects</p>
-    </div>
-  </section> 
-  <!-- Stats Section End -->
 
-  <!-- Portfolio Section Start -->
-  <section class="sec5">
-    <div class="text1">
-      <h1>Our Latest Featured Projects</h1>
-      <p>Who are in extremely love with eco-friendly system.</p>
-    </div>
-  </section>
-  <section class="sec6">
-    <div class="grid-container">
-      <!-- Image Box 1 -->
-      <div class="img-box">
-        <figure>
-          <img src="Personal_files/p1.jpg" alt="Project 1">
-        </figure>
-        <h2>2D Vinyl Design</h2>
-        <p>Victor</p>
-      </div>
-      <!-- Image Box 2 -->
-      <div class="img-box">
-        <figure>
-          <img src="Personal_files/p2.jpg" alt="Project 2">
-        </figure>
-        <h2>3D Logo Design</h2>
-        <p>Emily</p>
-      </div>
-      <!-- Image Box 3 -->
-      <div class="img-box">
-        <figure>
-          <img src="Personal_files/p3.jpg" alt="Project 3">
-        </figure>
-        <h2>Web Mockup</h2>
-        <p>John</p>
-      </div>
-      <!-- Image Box 4 -->
-      <div class="img-box">
-        <figure>
-          <img src="Personal_files/p4.jpg" alt="Project 4">
-        </figure>
-        <h2>Poster Art</h2>
-        <p>Sara</p>
-      </div>
-    </div>
-  </section>
-  <!-- Portfolio Section End -->
+
 
   <!-- Pricing/Plans Section Start -->
   <section class="Sec7">
@@ -236,7 +169,7 @@
         </p>
         <p>
           &copy;2025 All rights reserved | This template is made with <span
-            style="color:#f4d160;">&#10084;&#65039;</span> by Colorlib
+            style="color:#f4d160;">&#10084;&#65039;</span> by subroto roy
         </p>
       </div>
 
@@ -248,42 +181,23 @@
           <button type="submit"><i class="fa fa-paper-plane"></i> Subscribe</button>
         </form>
       </div>
-      
+
       <div class="footer-col social">
         <h3>Follow Me</h3>
         <p>Let us be social</p>
         <div class="social-icons">
           <a href="https://www.facebook.com/" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" title="LinkedIn"><i
+              class="fab fa-linkedin"></i></a>
           <a href="https://www.youtube.com/@SubrotoKumar12" title="YouTube"><i class="fab fa-youtube"></i></a>
         </div>
-        
+
       </div>
     </div>
   </footer>
   <!-- Footer End -->
 
-  <!-- Hamburger menu JS for toggle -->
-  <script>
-    // Hamburger menu toggle for mobile/tablet
-    const checkBox = document.getElementById('check');
-    const navLinks = document.getElementById('nav-links');
-    function toggleNav() {
-      if (checkBox.checked) {
-        navLinks.classList.add('show');
-      } else {
-        navLinks.classList.remove('show');
-      }
-    }
-    checkBox.addEventListener('change', toggleNav);
-    // Close nav when clicking a link (for better UX)
-    document.querySelectorAll('.nav-links a').forEach(link => {
-      link.addEventListener('click', () => {
-        checkBox.checked = false;
-        navLinks.classList.remove('show');
-      });
-    });
-  </script>
+
 </body>
 
 </html>
